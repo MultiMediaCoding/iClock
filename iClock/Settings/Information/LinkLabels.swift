@@ -14,7 +14,8 @@ struct LinkLabel {
 }
 
 let sourceCodeLinks: [LinkLabel] = [
-    LinkLabel(title: "Flipper Uhr", systemName: "clock", url: "https://github.com/elpassion/FlipClock-SwiftUI")
+    LinkLabel(title: "iClock", systemName: "clock", url: "https://github.com/MultiMediaCoding/iClock"),
+    LinkLabel(title: "Flipper Uhr", systemName: "rectangle.ratio.3.to.4", url: "https://github.com/elpassion/FlipClock-SwiftUI")
 ]
 
 let imageLinks: [LinkLabel] = [

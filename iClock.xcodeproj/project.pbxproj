@@ -8,17 +8,67 @@
 
 /* Begin PBXBuildFile section */
 		3A17D8572B2B695800A87B7B /* iClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D8562B2B695800A87B7B /* iClockApp.swift */; };
-		3A17D8592B2B695800A87B7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D8582B2B695800A87B7B /* ContentView.swift */; };
 		3A17D85B2B2B695B00A87B7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A17D85A2B2B695B00A87B7B /* Assets.xcassets */; };
 		3A17D85E2B2B695B00A87B7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A17D85D2B2B695B00A87B7B /* Preview Assets.xcassets */; };
+		3A17D8742B2B69EC00A87B7B /* SimpleClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D8682B2B69EB00A87B7B /* SimpleClockView.swift */; };
+		3A17D8752B2B69EC00A87B7B /* FlipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D86B2B2B69EB00A87B7B /* FlipViewModel.swift */; };
+		3A17D8762B2B69EC00A87B7B /* ClockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D86C2B2B69EB00A87B7B /* ClockViewModel.swift */; };
+		3A17D8772B2B69EC00A87B7B /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D86D2B2B69EB00A87B7B /* FlipView.swift */; };
+		3A17D8782B2B69EC00A87B7B /* SingleFlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D86E2B2B69EB00A87B7B /* SingleFlipView.swift */; };
+		3A17D8792B2B69EC00A87B7B /* ClassicFlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D86F2B2B69EB00A87B7B /* ClassicFlipView.swift */; };
+		3A17D87A2B2B69EC00A87B7B /* FlipManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D8702B2B69EB00A87B7B /* FlipManager.swift */; };
+		3A17D87B2B2B69EC00A87B7B /* AllFlipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D8712B2B69EB00A87B7B /* AllFlipsView.swift */; };
+		3A17D87C2B2B69EC00A87B7B /* BoxesClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D8732B2B69EB00A87B7B /* BoxesClockView.swift */; };
+		3A17D8852B2B6A0E00A87B7B /* Backgrounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D87E2B2B6A0E00A87B7B /* Backgrounds.swift */; };
+		3A17D8862B2B6A0E00A87B7B /* ClockTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D87F2B2B6A0E00A87B7B /* ClockTheme.swift */; };
+		3A17D8872B2B6A0E00A87B7B /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D8802B2B6A0E00A87B7B /* Background.swift */; };
+		3A17D8882B2B6A0E00A87B7B /* ScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D8812B2B6A0E00A87B7B /* ScreenSize.swift */; };
+		3A17D8892B2B6A0E00A87B7B /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D8822B2B6A0E00A87B7B /* ThemeManager.swift */; };
+		3A17D88A2B2B6A0E00A87B7B /* TimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D8832B2B6A0E00A87B7B /* TimeManager.swift */; };
+		3A17D88B2B2B6A0E00A87B7B /* ClockThemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D8842B2B6A0E00A87B7B /* ClockThemes.swift */; };
+		3A17D8982B2B6A1C00A87B7B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D88D2B2B6A1C00A87B7B /* SettingsView.swift */; };
+		3A17D8992B2B6A1C00A87B7B /* LinkLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D88F2B2B6A1C00A87B7B /* LinkLabels.swift */; };
+		3A17D89A2B2B6A1C00A87B7B /* InformationCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D8902B2B6A1C00A87B7B /* InformationCategories.swift */; };
+		3A17D89B2B2B6A1C00A87B7B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D8912B2B6A1C00A87B7B /* WebView.swift */; };
+		3A17D89C2B2B6A1C00A87B7B /* LinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D8922B2B6A1C00A87B7B /* LinksView.swift */; };
+		3A17D89D2B2B6A1C00A87B7B /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D8932B2B6A1C00A87B7B /* InformationView.swift */; };
+		3A17D89E2B2B6A1C00A87B7B /* ImageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D8952B2B6A1C00A87B7B /* ImageListView.swift */; };
+		3A17D89F2B2B6A1C00A87B7B /* BackgroundSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D8962B2B6A1C00A87B7B /* BackgroundSelectionView.swift */; };
+		3A17D8A02B2B6A1C00A87B7B /* ClockSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D8972B2B6A1C00A87B7B /* ClockSelectionView.swift */; };
+		3A17D8A42B2B7C8700A87B7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17D8A32B2B7C8700A87B7B /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3A17D8532B2B695800A87B7B /* iClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A17D8562B2B695800A87B7B /* iClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iClockApp.swift; sourceTree = "<group>"; };
-		3A17D8582B2B695800A87B7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A17D85A2B2B695B00A87B7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A17D85D2B2B695B00A87B7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A17D8682B2B69EB00A87B7B /* SimpleClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleClockView.swift; sourceTree = "<group>"; };
+		3A17D86B2B2B69EB00A87B7B /* FlipViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipViewModel.swift; sourceTree = "<group>"; };
+		3A17D86C2B2B69EB00A87B7B /* ClockViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockViewModel.swift; sourceTree = "<group>"; };
+		3A17D86D2B2B69EB00A87B7B /* FlipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
+		3A17D86E2B2B69EB00A87B7B /* SingleFlipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleFlipView.swift; sourceTree = "<group>"; };
+		3A17D86F2B2B69EB00A87B7B /* ClassicFlipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicFlipView.swift; sourceTree = "<group>"; };
+		3A17D8702B2B69EB00A87B7B /* FlipManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipManager.swift; sourceTree = "<group>"; };
+		3A17D8712B2B69EB00A87B7B /* AllFlipsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllFlipsView.swift; sourceTree = "<group>"; };
+		3A17D8732B2B69EB00A87B7B /* BoxesClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxesClockView.swift; sourceTree = "<group>"; };
+		3A17D87E2B2B6A0E00A87B7B /* Backgrounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Backgrounds.swift; sourceTree = "<group>"; };
+		3A17D87F2B2B6A0E00A87B7B /* ClockTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockTheme.swift; sourceTree = "<group>"; };
+		3A17D8802B2B6A0E00A87B7B /* Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		3A17D8812B2B6A0E00A87B7B /* ScreenSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenSize.swift; sourceTree = "<group>"; };
+		3A17D8822B2B6A0E00A87B7B /* ThemeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		3A17D8832B2B6A0E00A87B7B /* TimeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeManager.swift; sourceTree = "<group>"; };
+		3A17D8842B2B6A0E00A87B7B /* ClockThemes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockThemes.swift; sourceTree = "<group>"; };
+		3A17D88D2B2B6A1C00A87B7B /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3A17D88F2B2B6A1C00A87B7B /* LinkLabels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkLabels.swift; sourceTree = "<group>"; };
+		3A17D8902B2B6A1C00A87B7B /* InformationCategories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationCategories.swift; sourceTree = "<group>"; };
+		3A17D8912B2B6A1C00A87B7B /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		3A17D8922B2B6A1C00A87B7B /* LinksView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinksView.swift; sourceTree = "<group>"; };
+		3A17D8932B2B6A1C00A87B7B /* InformationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		3A17D8952B2B6A1C00A87B7B /* ImageListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageListView.swift; sourceTree = "<group>"; };
+		3A17D8962B2B6A1C00A87B7B /* BackgroundSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundSelectionView.swift; sourceTree = "<group>"; };
+		3A17D8972B2B6A1C00A87B7B /* ClockSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockSelectionView.swift; sourceTree = "<group>"; };
+		3A17D8A32B2B7C8700A87B7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +102,11 @@
 			isa = PBXGroup;
 			children = (
 				3A17D8562B2B695800A87B7B /* iClockApp.swift */,
-				3A17D8582B2B695800A87B7B /* ContentView.swift */,
+				3A17D8A32B2B7C8700A87B7B /* ContentView.swift */,
 				3A17D85A2B2B695B00A87B7B /* Assets.xcassets */,
+				3A17D88C2B2B6A1C00A87B7B /* Settings */,
+				3A17D87D2B2B6A0E00A87B7B /* Managers */,
+				3A17D8662B2B69EB00A87B7B /* Themes */,
 				3A17D85C2B2B695B00A87B7B /* Preview Content */,
 			);
 			path = iClock;
@@ -65,6 +118,100 @@
 				3A17D85D2B2B695B00A87B7B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A17D8662B2B69EB00A87B7B /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				3A17D8672B2B69EB00A87B7B /* Simple */,
+				3A17D8692B2B69EB00A87B7B /* Flipping */,
+				3A17D8722B2B69EB00A87B7B /* Boxes */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		3A17D8672B2B69EB00A87B7B /* Simple */ = {
+			isa = PBXGroup;
+			children = (
+				3A17D8682B2B69EB00A87B7B /* SimpleClockView.swift */,
+			);
+			path = Simple;
+			sourceTree = "<group>";
+		};
+		3A17D8692B2B69EB00A87B7B /* Flipping */ = {
+			isa = PBXGroup;
+			children = (
+				3A17D86A2B2B69EB00A87B7B /* ViewModels */,
+				3A17D86D2B2B69EB00A87B7B /* FlipView.swift */,
+				3A17D86E2B2B69EB00A87B7B /* SingleFlipView.swift */,
+				3A17D86F2B2B69EB00A87B7B /* ClassicFlipView.swift */,
+				3A17D8702B2B69EB00A87B7B /* FlipManager.swift */,
+				3A17D8712B2B69EB00A87B7B /* AllFlipsView.swift */,
+			);
+			path = Flipping;
+			sourceTree = "<group>";
+		};
+		3A17D86A2B2B69EB00A87B7B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3A17D86B2B2B69EB00A87B7B /* FlipViewModel.swift */,
+				3A17D86C2B2B69EB00A87B7B /* ClockViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3A17D8722B2B69EB00A87B7B /* Boxes */ = {
+			isa = PBXGroup;
+			children = (
+				3A17D8732B2B69EB00A87B7B /* BoxesClockView.swift */,
+			);
+			path = Boxes;
+			sourceTree = "<group>";
+		};
+		3A17D87D2B2B6A0E00A87B7B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3A17D87E2B2B6A0E00A87B7B /* Backgrounds.swift */,
+				3A17D87F2B2B6A0E00A87B7B /* ClockTheme.swift */,
+				3A17D8802B2B6A0E00A87B7B /* Background.swift */,
+				3A17D8812B2B6A0E00A87B7B /* ScreenSize.swift */,
+				3A17D8822B2B6A0E00A87B7B /* ThemeManager.swift */,
+				3A17D8832B2B6A0E00A87B7B /* TimeManager.swift */,
+				3A17D8842B2B6A0E00A87B7B /* ClockThemes.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		3A17D88C2B2B6A1C00A87B7B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3A17D88D2B2B6A1C00A87B7B /* SettingsView.swift */,
+				3A17D88E2B2B6A1C00A87B7B /* Information */,
+				3A17D8942B2B6A1C00A87B7B /* SelectionOptions */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3A17D88E2B2B6A1C00A87B7B /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				3A17D88F2B2B6A1C00A87B7B /* LinkLabels.swift */,
+				3A17D8902B2B6A1C00A87B7B /* InformationCategories.swift */,
+				3A17D8912B2B6A1C00A87B7B /* WebView.swift */,
+				3A17D8922B2B6A1C00A87B7B /* LinksView.swift */,
+				3A17D8932B2B6A1C00A87B7B /* InformationView.swift */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
+		3A17D8942B2B6A1C00A87B7B /* SelectionOptions */ = {
+			isa = PBXGroup;
+			children = (
+				3A17D8952B2B6A1C00A87B7B /* ImageListView.swift */,
+				3A17D8962B2B6A1C00A87B7B /* BackgroundSelectionView.swift */,
+				3A17D8972B2B6A1C00A87B7B /* ClockSelectionView.swift */,
+			);
+			path = SelectionOptions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +284,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A17D8592B2B695800A87B7B /* ContentView.swift in Sources */,
+				3A17D8882B2B6A0E00A87B7B /* ScreenSize.swift in Sources */,
+				3A17D8792B2B69EC00A87B7B /* ClassicFlipView.swift in Sources */,
+				3A17D8872B2B6A0E00A87B7B /* Background.swift in Sources */,
+				3A17D88A2B2B6A0E00A87B7B /* TimeManager.swift in Sources */,
+				3A17D8742B2B69EC00A87B7B /* SimpleClockView.swift in Sources */,
+				3A17D89F2B2B6A1C00A87B7B /* BackgroundSelectionView.swift in Sources */,
+				3A17D8772B2B69EC00A87B7B /* FlipView.swift in Sources */,
+				3A17D8752B2B69EC00A87B7B /* FlipViewModel.swift in Sources */,
 				3A17D8572B2B695800A87B7B /* iClockApp.swift in Sources */,
+				3A17D8992B2B6A1C00A87B7B /* LinkLabels.swift in Sources */,
+				3A17D89D2B2B6A1C00A87B7B /* InformationView.swift in Sources */,
+				3A17D8782B2B69EC00A87B7B /* SingleFlipView.swift in Sources */,
+				3A17D87C2B2B69EC00A87B7B /* BoxesClockView.swift in Sources */,
+				3A17D8A02B2B6A1C00A87B7B /* ClockSelectionView.swift in Sources */,
+				3A17D8A42B2B7C8700A87B7B /* ContentView.swift in Sources */,
+				3A17D8852B2B6A0E00A87B7B /* Backgrounds.swift in Sources */,
+				3A17D89E2B2B6A1C00A87B7B /* ImageListView.swift in Sources */,
+				3A17D8892B2B6A0E00A87B7B /* ThemeManager.swift in Sources */,
+				3A17D8862B2B6A0E00A87B7B /* ClockTheme.swift in Sources */,
+				3A17D88B2B2B6A0E00A87B7B /* ClockThemes.swift in Sources */,
+				3A17D8762B2B69EC00A87B7B /* ClockViewModel.swift in Sources */,
+				3A17D87A2B2B69EC00A87B7B /* FlipManager.swift in Sources */,
+				3A17D87B2B2B69EC00A87B7B /* AllFlipsView.swift in Sources */,
+				3A17D89A2B2B6A1C00A87B7B /* InformationCategories.swift in Sources */,
+				3A17D8982B2B6A1C00A87B7B /* SettingsView.swift in Sources */,
+				3A17D89B2B2B6A1C00A87B7B /* WebView.swift in Sources */,
+				3A17D89C2B2B6A1C00A87B7B /* LinksView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +444,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iClock/Preview Content\"";
-				DEVELOPMENT_TEAM = JU4Z7HL3D6;
+				DEVELOPMENT_TEAM = NRD4L2MCC7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -280,12 +452,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hlps-developers.iClock.iClock";
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hlps-developers.iClock";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -301,7 +474,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iClock/Preview Content\"";
-				DEVELOPMENT_TEAM = JU4Z7HL3D6;
+				DEVELOPMENT_TEAM = NRD4L2MCC7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -309,12 +482,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hlps-developers.iClock.iClock";
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hlps-developers.iClock";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
