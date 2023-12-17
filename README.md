@@ -17,9 +17,9 @@ iClock is designed to provide users with a simple and elegant way to check the t
 
 ## Screenshots
 
-![Flipper Clock](Preview/Flipper%20Clock.png | width=200)
-![Box Clock](Preview/Box%20Clock.png | width=200)
-![Simple Clock](Preview/Simple%20Clock.png | width=200)
+<img src="Preview/Flipper%20Clock.png" alt="Flipper Clock" width="200"/>
+<img src="Preview/Box%20Clock.png" alt="Box Clock" width="200"/>
+<img src="Preview/Simple%20Clock.png" alt="Simple Clock" width="200"/>
 
 ## Installation
 
