@@ -17,7 +17,7 @@ iClock is designed to provide users with a simple and elegant way to check the t
 
 ## Screenshots
 
-![Flipper Clock](Preview/Flipper Clock.png)
+![Flipper Clock](Preview/Box Clock.png)
 ![Screenshot Placeholder 2](path/to/screenshot2.png)
 
 ## Installation
